@@ -14,6 +14,8 @@
 		61B415F42AC751B000BF2EEE /* AppFacesRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415F32AC751B000BF2EEE /* AppFacesRecognitionTests.swift */; };
 		61B415FE2AC751B000BF2EEE /* AppFacesRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415FD2AC751B000BF2EEE /* AppFacesRecognitionUITests.swift */; };
 		61B416002AC751B000BF2EEE /* AppFacesRecognitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415FF2AC751B000BF2EEE /* AppFacesRecognitionUITestsLaunchTests.swift */; };
+		61B4160E2AC75A0F00BF2EEE /* Guapometro 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 61B4160D2AC75A0F00BF2EEE /* Guapometro 2.mlmodel */; };
+		61B416102AC75A2900BF2EEE /* PredictionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4160F2AC75A2900BF2EEE /* PredictionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		61B415F92AC751B000BF2EEE /* AppFacesRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppFacesRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B415FD2AC751B000BF2EEE /* AppFacesRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFacesRecognitionUITests.swift; sourceTree = "<group>"; };
 		61B415FF2AC751B000BF2EEE /* AppFacesRecognitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFacesRecognitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61B4160D2AC75A0F00BF2EEE /* Guapometro 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "Guapometro 2.mlmodel"; path = "../../../../../../../Downloads/Guapometro 2.mlmodel"; sourceTree = "<group>"; };
+		61B4160F2AC75A2900BF2EEE /* PredictionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				61B415E22AC751AF00BF2EEE /* AppFacesRecognitionApp.swift */,
 				61B415E42AC751AF00BF2EEE /* ContentView.swift */,
 				61B415E62AC751B000BF2EEE /* Assets.xcassets */,
+				61B4160C2AC759BF00BF2EEE /* Model */,
 				61B415E82AC751B000BF2EEE /* Preview Content */,
 			);
 			path = AppFacesRecognition;
@@ -125,6 +130,15 @@
 				61B415FF2AC751B000BF2EEE /* AppFacesRecognitionUITestsLaunchTests.swift */,
 			);
 			path = AppFacesRecognitionUITests;
+			sourceTree = "<group>";
+		};
+		61B4160C2AC759BF00BF2EEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61B4160D2AC75A0F00BF2EEE /* Guapometro 2.mlmodel */,
+				61B4160F2AC75A2900BF2EEE /* PredictionModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B4160E2AC75A0F00BF2EEE /* Guapometro 2.mlmodel in Sources */,
 				61B415E52AC751AF00BF2EEE /* ContentView.swift in Sources */,
+				61B416102AC75A2900BF2EEE /* PredictionModel.swift in Sources */,
 				61B415E32AC751AF00BF2EEE /* AppFacesRecognitionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
