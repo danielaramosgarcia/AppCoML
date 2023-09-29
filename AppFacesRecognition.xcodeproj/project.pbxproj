@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61B415E32AC751AF00BF2EEE /* AppFacesRecognitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415E22AC751AF00BF2EEE /* AppFacesRecognitionApp.swift */; };
+		61B415E52AC751AF00BF2EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415E42AC751AF00BF2EEE /* ContentView.swift */; };
+		61B415E72AC751B000BF2EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B415E62AC751B000BF2EEE /* Assets.xcassets */; };
+		61B415EA2AC751B000BF2EEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B415E92AC751B000BF2EEE /* Preview Assets.xcassets */; };
+		61B415F42AC751B000BF2EEE /* AppFacesRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415F32AC751B000BF2EEE /* AppFacesRecognitionTests.swift */; };
+		61B415FE2AC751B000BF2EEE /* AppFacesRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415FD2AC751B000BF2EEE /* AppFacesRecognitionUITests.swift */; };
+		61B416002AC751B000BF2EEE /* AppFacesRecognitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415FF2AC751B000BF2EEE /* AppFacesRecognitionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61B415F02AC751B000BF2EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B415D72AC751AF00BF2EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B415DE2AC751AF00BF2EEE;
+			remoteInfo = AppFacesRecognition;
+		};
+		61B415FA2AC751B000BF2EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B415D72AC751AF00BF2EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B415DE2AC751AF00BF2EEE;
+			remoteInfo = AppFacesRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61B415DF2AC751AF00BF2EEE /* AppFacesRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFacesRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B415E22AC751AF00BF2EEE /* AppFacesRecognitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFacesRecognitionApp.swift; sourceTree = "<group>"; };
+		61B415E42AC751AF00BF2EEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61B415E62AC751B000BF2EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61B415E92AC751B000BF2EEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61B415EF2AC751B000BF2EEE /* AppFacesRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppFacesRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B415F32AC751B000BF2EEE /* AppFacesRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFacesRecognitionTests.swift; sourceTree = "<group>"; };
+		61B415F92AC751B000BF2EEE /* AppFacesRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppFacesRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B415FD2AC751B000BF2EEE /* AppFacesRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFacesRecognitionUITests.swift; sourceTree = "<group>"; };
+		61B415FF2AC751B000BF2EEE /* AppFacesRecognitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFacesRecognitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61B415DC2AC751AF00BF2EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B415EC2AC751B000BF2EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B415F62AC751B000BF2EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61B415D62AC751AF00BF2EEE = {
+			isa = PBXGroup;
+			children = (
+				61B415E12AC751AF00BF2EEE /* AppFacesRecognition */,
+				61B415F22AC751B000BF2EEE /* AppFacesRecognitionTests */,
+				61B415FC2AC751B000BF2EEE /* AppFacesRecognitionUITests */,
+				61B415E02AC751AF00BF2EEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61B415E02AC751AF00BF2EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61B415DF2AC751AF00BF2EEE /* AppFacesRecognition.app */,
+				61B415EF2AC751B000BF2EEE /* AppFacesRecognitionTests.xctest */,
+				61B415F92AC751B000BF2EEE /* AppFacesRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61B415E12AC751AF00BF2EEE /* AppFacesRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				61B415E22AC751AF00BF2EEE /* AppFacesRecognitionApp.swift */,
+				61B415E42AC751AF00BF2EEE /* ContentView.swift */,
+				61B415E62AC751B000BF2EEE /* Assets.xcassets */,
+				61B415E82AC751B000BF2EEE /* Preview Content */,
+			);
+			path = AppFacesRecognition;
+			sourceTree = "<group>";
+		};
+		61B415E82AC751B000BF2EEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				61B415E92AC751B000BF2EEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61B415F22AC751B000BF2EEE /* AppFacesRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				61B415F32AC751B000BF2EEE /* AppFacesRecognitionTests.swift */,
+			);
+			path = AppFacesRecognitionTests;
+			sourceTree = "<group>";
+		};
+		61B415FC2AC751B000BF2EEE /* AppFacesRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61B415FD2AC751B000BF2EEE /* AppFacesRecognitionUITests.swift */,
+				61B415FF2AC751B000BF2EEE /* AppFacesRecognitionUITestsLaunchTests.swift */,
+			);
+			path = AppFacesRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61B415DE2AC751AF00BF2EEE /* AppFacesRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B416032AC751B000BF2EEE /* Build configuration list for PBXNativeTarget "AppFacesRecognition" */;
+			buildPhases = (
+				61B415DB2AC751AF00BF2EEE /* Sources */,
+				61B415DC2AC751AF00BF2EEE /* Frameworks */,
+				61B415DD2AC751AF00BF2EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppFacesRecognition;
+			productName = AppFacesRecognition;
+			productReference = 61B415DF2AC751AF00BF2EEE /* AppFacesRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61B415EE2AC751B000BF2EEE /* AppFacesRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B416062AC751B000BF2EEE /* Build configuration list for PBXNativeTarget "AppFacesRecognitionTests" */;
+			buildPhases = (
+				61B415EB2AC751B000BF2EEE /* Sources */,
+				61B415EC2AC751B000BF2EEE /* Frameworks */,
+				61B415ED2AC751B000BF2EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B415F12AC751B000BF2EEE /* PBXTargetDependency */,
+			);
+			name = AppFacesRecognitionTests;
+			productName = AppFacesRecognitionTests;
+			productReference = 61B415EF2AC751B000BF2EEE /* AppFacesRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61B415F82AC751B000BF2EEE /* AppFacesRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B416092AC751B000BF2EEE /* Build configuration list for PBXNativeTarget "AppFacesRecognitionUITests" */;
+			buildPhases = (
+				61B415F52AC751B000BF2EEE /* Sources */,
+				61B415F62AC751B000BF2EEE /* Frameworks */,
+				61B415F72AC751B000BF2EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B415FB2AC751B000BF2EEE /* PBXTargetDependency */,
+			);
+			name = AppFacesRecognitionUITests;
+			productName = AppFacesRecognitionUITests;
+			productReference = 61B415F92AC751B000BF2EEE /* AppFacesRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61B415D72AC751AF00BF2EEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					61B415DE2AC751AF00BF2EEE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					61B415EE2AC751B000BF2EEE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 61B415DE2AC751AF00BF2EEE;
+					};
+					61B415F82AC751B000BF2EEE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 61B415DE2AC751AF00BF2EEE;
+					};
+				};
+			};
+			buildConfigurationList = 61B415DA2AC751AF00BF2EEE /* Build configuration list for PBXProject "AppFacesRecognition" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61B415D62AC751AF00BF2EEE;
+			productRefGroup = 61B415E02AC751AF00BF2EEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61B415DE2AC751AF00BF2EEE /* AppFacesRecognition */,
+				61B415EE2AC751B000BF2EEE /* AppFacesRecognitionTests */,
+				61B415F82AC751B000BF2EEE /* AppFacesRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61B415DD2AC751AF00BF2EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B415EA2AC751B000BF2EEE /* Preview Assets.xcassets in Resources */,
+				61B415E72AC751B000BF2EEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B415ED2AC751B000BF2EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B415F72AC751B000BF2EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61B415DB2AC751AF00BF2EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B415E52AC751AF00BF2EEE /* ContentView.swift in Sources */,
+				61B415E32AC751AF00BF2EEE /* AppFacesRecognitionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B415EB2AC751B000BF2EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B415F42AC751B000BF2EEE /* AppFacesRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B415F52AC751B000BF2EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B415FE2AC751B000BF2EEE /* AppFacesRecognitionUITests.swift in Sources */,
+				61B416002AC751B000BF2EEE /* AppFacesRecognitionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61B415F12AC751B000BF2EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B415DE2AC751AF00BF2EEE /* AppFacesRecognition */;
+			targetProxy = 61B415F02AC751B000BF2EEE /* PBXContainerItemProxy */;
+		};
+		61B415FB2AC751B000BF2EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B415DE2AC751AF00BF2EEE /* AppFacesRecognition */;
+			targetProxy = 61B415FA2AC751B000BF2EEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61B416012AC751B000BF2EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61B416022AC751B000BF2EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61B416042AC751B000BF2EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppFacesRecognition/Preview Content\"";
+				DEVELOPMENT_TEAM = Y4M8Q7FFFV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniramos.AppFacesRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61B416052AC751B000BF2EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppFacesRecognition/Preview Content\"";
+				DEVELOPMENT_TEAM = Y4M8Q7FFFV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniramos.AppFacesRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61B416072AC751B000BF2EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4M8Q7FFFV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniramos.AppFacesRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppFacesRecognition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppFacesRecognition";
+			};
+			name = Debug;
+		};
+		61B416082AC751B000BF2EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4M8Q7FFFV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniramos.AppFacesRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppFacesRecognition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppFacesRecognition";
+			};
+			name = Release;
+		};
+		61B4160A2AC751B000BF2EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4M8Q7FFFV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniramos.AppFacesRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppFacesRecognition;
+			};
+			name = Debug;
+		};
+		61B4160B2AC751B000BF2EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4M8Q7FFFV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniramos.AppFacesRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppFacesRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61B415DA2AC751AF00BF2EEE /* Build configuration list for PBXProject "AppFacesRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B416012AC751B000BF2EEE /* Debug */,
+				61B416022AC751B000BF2EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B416032AC751B000BF2EEE /* Build configuration list for PBXNativeTarget "AppFacesRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B416042AC751B000BF2EEE /* Debug */,
+				61B416052AC751B000BF2EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B416062AC751B000BF2EEE /* Build configuration list for PBXNativeTarget "AppFacesRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B416072AC751B000BF2EEE /* Debug */,
+				61B416082AC751B000BF2EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B416092AC751B000BF2EEE /* Build configuration list for PBXNativeTarget "AppFacesRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B4160A2AC751B000BF2EEE /* Debug */,
+				61B4160B2AC751B000BF2EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61B415D72AC751AF00BF2EEE /* Project object */;
+}
