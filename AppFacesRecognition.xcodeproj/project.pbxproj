@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61B415E32AC751AF00BF2EEE /* AppFacesRecognitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415E22AC751AF00BF2EEE /* AppFacesRecognitionApp.swift */; };
-		61B415E52AC751AF00BF2EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415E42AC751AF00BF2EEE /* ContentView.swift */; };
+		61B415E52AC751AF00BF2EEE /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415E42AC751AF00BF2EEE /* LaunchScreenView.swift */; };
 		61B415E72AC751B000BF2EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B415E62AC751B000BF2EEE /* Assets.xcassets */; };
 		61B415EA2AC751B000BF2EEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B415E92AC751B000BF2EEE /* Preview Assets.xcassets */; };
 		61B415F42AC751B000BF2EEE /* AppFacesRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B415F32AC751B000BF2EEE /* AppFacesRecognitionTests.swift */; };
@@ -21,10 +20,11 @@
 		61B416272ACBB8AC00BF2EEE /* LiveCameraRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B416262ACBB8AC00BF2EEE /* LiveCameraRepresentable.swift */; };
 		61B416292ACBB8B200BF2EEE /* LiveCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B416282ACBB8B200BF2EEE /* LiveCameraViewController.swift */; };
 		61B4162B2ACBB8B800BF2EEE /* coreML_starterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4162A2ACBB8B800BF2EEE /* coreML_starterApp.swift */; };
-		61B4162D2ACBB8BC00BF2EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4162C2ACBB8BC00BF2EEE /* ContentView.swift */; };
 		61B4162F2ACBB8C300BF2EEE /* ClassifierViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4162E2ACBB8C300BF2EEE /* ClassifierViewModel.swift */; };
 		61B416312ACBB8CA00BF2EEE /* RoundedRectButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B416302ACBB8CA00BF2EEE /* RoundedRectButtonStyle.swift */; };
-		61B416372ACBB91000BF2EEE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61B416362ACBB91000BF2EEE /* Info.plist */; };
+		61B416392ACBBBE300BF2EEE /* mydata.json in Resources */ = {isa = PBXBuildFile; fileRef = 61B416382ACBBBE300BF2EEE /* mydata.json */; };
+		61B4163B2ACBBBE800BF2EEE /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4163A2ACBBBE800BF2EEE /* Classification.swift */; };
+		61B4163D2ACBC0E200BF2EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4163C2ACBC0E200BF2EEE /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,7 @@
 
 /* Begin PBXFileReference section */
 		61B415DF2AC751AF00BF2EEE /* AppFacesRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFacesRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		61B415E22AC751AF00BF2EEE /* AppFacesRecognitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFacesRecognitionApp.swift; sourceTree = "<group>"; };
-		61B415E42AC751AF00BF2EEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61B415E42AC751AF00BF2EEE /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		61B415E62AC751B000BF2EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61B415E92AC751B000BF2EEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		61B415EF2AC751B000BF2EEE /* AppFacesRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppFacesRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +61,11 @@
 		61B416262ACBB8AC00BF2EEE /* LiveCameraRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveCameraRepresentable.swift; path = "../../../../02 Xcode Project Templates/co-ml-nanostarter-app-main/coreML-nanostarter/Foundation/CameraViewControllers/LiveCameraRepresentable.swift"; sourceTree = "<group>"; };
 		61B416282ACBB8B200BF2EEE /* LiveCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveCameraViewController.swift; path = "../../../../02 Xcode Project Templates/co-ml-nanostarter-app-main/coreML-nanostarter/Foundation/CameraViewControllers/LiveCameraViewController.swift"; sourceTree = "<group>"; };
 		61B4162A2ACBB8B800BF2EEE /* coreML_starterApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = coreML_starterApp.swift; path = "../../../../02 Xcode Project Templates/co-ml-nanostarter-app-main/coreML-nanostarter/Foundation/Views/coreML_starterApp.swift"; sourceTree = "<group>"; };
-		61B4162C2ACBB8BC00BF2EEE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../02 Xcode Project Templates/co-ml-nanostarter-app-main/coreML-nanostarter/Foundation/Views/ContentView.swift"; sourceTree = "<group>"; };
 		61B4162E2ACBB8C300BF2EEE /* ClassifierViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassifierViewModel.swift; path = "../../../../02 Xcode Project Templates/co-ml-nanostarter-app-main/coreML-nanostarter/Foundation/Views/ClassifierViewModel.swift"; sourceTree = "<group>"; };
 		61B416302ACBB8CA00BF2EEE /* RoundedRectButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedRectButtonStyle.swift; path = "../../../../02 Xcode Project Templates/co-ml-nanostarter-app-main/coreML-nanostarter/Foundation/Views/RoundedRectButtonStyle.swift"; sourceTree = "<group>"; };
-		61B416362ACBB91000BF2EEE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../02 Xcode Project Templates/co-ml-nanostarter-app-main/coreML-nanostarter/Info.plist"; sourceTree = "<group>"; };
+		61B416382ACBBBE300BF2EEE /* mydata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mydata.json; path = "../../../02 Xcode Project Templates/co-ml-nanostarter-app-main/coreML-nanostarter/2-Data/mydata.json"; sourceTree = "<group>"; };
+		61B4163A2ACBBBE800BF2EEE /* Classification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Classification.swift; path = "../../../02 Xcode Project Templates/co-ml-nanostarter-app-main/coreML-nanostarter/2-Data/Classification.swift"; sourceTree = "<group>"; };
+		61B4163C2ACBC0E200BF2EEE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../02 Xcode Project Templates/co-ml-nanostarter-app-main/coreML-nanostarter/Foundation/Views/ContentView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,6 @@
 		61B415E12AC751AF00BF2EEE /* AppFacesRecognition */ = {
 			isa = PBXGroup;
 			children = (
-				61B416362ACBB91000BF2EEE /* Info.plist */,
 				61B4161D2ACBB71F00BF2EEE /* UI */,
 				61B4161C2ACBB6E600BF2EEE /* Data */,
 				61B4161B2ACBB6D200BF2EEE /* Foundation */,
@@ -174,6 +173,8 @@
 		61B4161C2ACBB6E600BF2EEE /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				61B416382ACBBBE300BF2EEE /* mydata.json */,
+				61B4163A2ACBBBE800BF2EEE /* Classification.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -182,8 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				61B4161E2ACBB7A700BF2EEE /* PredictionViews */,
-				61B415E22AC751AF00BF2EEE /* AppFacesRecognitionApp.swift */,
-				61B415E42AC751AF00BF2EEE /* ContentView.swift */,
+				61B415E42AC751AF00BF2EEE /* LaunchScreenView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -216,8 +216,8 @@
 		61B416212ACBB83000BF2EEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				61B4163C2ACBC0E200BF2EEE /* ContentView.swift */,
 				61B4162A2ACBB8B800BF2EEE /* coreML_starterApp.swift */,
-				61B4162C2ACBB8BC00BF2EEE /* ContentView.swift */,
 				61B4162E2ACBB8C300BF2EEE /* ClassifierViewModel.swift */,
 				61B416302ACBB8CA00BF2EEE /* RoundedRectButtonStyle.swift */,
 			);
@@ -328,9 +328,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B416372ACBB91000BF2EEE /* Info.plist in Resources */,
 				61B415EA2AC751B000BF2EEE /* Preview Assets.xcassets in Resources */,
 				61B415E72AC751B000BF2EEE /* Assets.xcassets in Resources */,
+				61B416392ACBBBE300BF2EEE /* mydata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,12 +359,12 @@
 				61B416292ACBB8B200BF2EEE /* LiveCameraViewController.swift in Sources */,
 				61B416272ACBB8AC00BF2EEE /* LiveCameraRepresentable.swift in Sources */,
 				61B4162F2ACBB8C300BF2EEE /* ClassifierViewModel.swift in Sources */,
-				61B415E52AC751AF00BF2EEE /* ContentView.swift in Sources */,
+				61B415E52AC751AF00BF2EEE /* LaunchScreenView.swift in Sources */,
 				61B416102AC75A2900BF2EEE /* PredictionModel.swift in Sources */,
 				61B416232ACBB89300BF2EEE /* Helpers.swift in Sources */,
 				61B416312ACBB8CA00BF2EEE /* RoundedRectButtonStyle.swift in Sources */,
-				61B4162D2ACBB8BC00BF2EEE /* ContentView.swift in Sources */,
-				61B415E32AC751AF00BF2EEE /* AppFacesRecognitionApp.swift in Sources */,
+				61B4163B2ACBBBE800BF2EEE /* Classification.swift in Sources */,
+				61B4163D2ACBC0E200BF2EEE /* ContentView.swift in Sources */,
 				61B4162B2ACBB8B800BF2EEE /* coreML_starterApp.swift in Sources */,
 				61B416252ACBB8A100BF2EEE /* Constants.swift in Sources */,
 			);
