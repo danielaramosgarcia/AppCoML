@@ -1,11 +1,11 @@
 //
-//  ContentView.swift
 //  co-ml
 //
 //  Created by Alumno on 02/10/23.
 //
 import SwiftUI
-struct ContentView: View {
+
+struct LaunchScreenView: View {
     var body: some View {
         GeometryReader { screen in
             HStack {
@@ -77,9 +77,16 @@ struct ContentView: View {
         } // GeometryReader
     } // body
 }
-struct ContentView_Previews: PreviewProvider {
+struct LaunchScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            .previewInterfaceOrientation(.landscapeLeft)
+        Group {
+            if #available(iOS 15.0, *) {
+                LaunchScreenView()
+                    .previewDevice(PreviewDevice(rawValue: "iPad Pro (12.9-inch)"))
+                    .previewInterfaceOrientation(.landscapeLeft)
+            } else {
+                // Fallback on earlier versions
+            }
+        }
     }
 }
